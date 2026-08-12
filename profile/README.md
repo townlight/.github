@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://civicsuite.github.io/civicsuite/"><strong>Explore CivicSuite</strong></a>
+  <a href="https://townlight.github.io/townlight/"><strong>Explore CivicSuite</strong></a>
   ·
   <a href="https://github.com/CivicSuite/civicsuite/releases/latest">Download the public beta</a>
   ·
@@ -40,7 +40,7 @@
 
 ### Start in the right place
 
-- Evaluating the product? Visit the [CivicSuite landing page](https://civicsuite.github.io/civicsuite/) and [latest release](https://github.com/CivicSuite/civicsuite/releases/latest).
+- Evaluating the product? Visit the [CivicSuite landing page](https://townlight.github.io/townlight/) and [latest release](https://github.com/CivicSuite/civicsuite/releases/latest).
 - Installing the beta? Follow the [operator walkthrough](https://github.com/CivicSuite/civicsuite/blob/main/docs/installer/operator-walkthrough.md).
 - Checking maturity? Read [STATUS.md](https://github.com/CivicSuite/civicsuite/blob/main/STATUS.md) before any adoption decision.
 - Contributing? Use the [contribution guide](https://github.com/CivicSuite/civicsuite/blob/main/CONTRIBUTING.md) to route work to the right module.
