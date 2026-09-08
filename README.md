@@ -10,7 +10,7 @@ This repository owns CivicSuite's GitHub organization profile, concise public do
 - [`docs/architecture.md`](docs/architecture.md) — concise suite architecture overview.
 - [`docs/project-status.md`](docs/project-status.md) — public maturity language and source-of-truth links.
 
-The detailed product site is live at <https://civicsuite.github.io/civicsuite/>. This repository's site is an organization hub and does not replace that product documentation.
+The detailed product site is live at <https://townlight.github.io/townlight/>. This repository's site is an organization hub and does not replace that product documentation.
 
 ## Preview the landing page
 
