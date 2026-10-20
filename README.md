@@ -36,4 +36,4 @@ Public status, versions, release evidence, checksums, requirements, and module m
 
 ## License
 
-Documentation and site content are licensed under [CC BY 4.0](LICENSE). Code snippets, tests, and workflow configuration are licensed under [Apache License 2.0](LICENSE-CODE).
+Documentation and site content are licensed under [CC BY 4.0](LICENSE-DOCS). Code: AGPL-3.0-only, with the TownLight Public Institution Exception for qualifying deployments. See [LICENSE](LICENSE) and [LICENSE-EXCEPTION.md](LICENSE-EXCEPTION.md).
