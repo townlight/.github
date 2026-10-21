@@ -66,7 +66,7 @@ class PublicSiteContract(unittest.TestCase):
         self.assertEqual([], [str(path.relative_to(ROOT)) for path in required if not path.is_file()])
 
     def test_page_has_accessible_structure(self):
-        self.assertIn("CivicSuite", self.parser.title)
+        self.assertIn("Townlight", self.parser.title)
         self.assertEqual(1, self.parser.headings.count("h1"))
         self.assertTrue({"header", "nav", "main", "footer"}.issubset(self.parser.landmarks))
         self.assertIn('href="#main"', self.html)

@@ -1,6 +1,8 @@
-# CivicSuite architecture at a glance
+<a id="civicsuite-architecture-at-a-glance"></a>
 
-CivicSuite is a multi-repository product family with a one-way dependency rule: product modules depend on CivicCore; CivicCore does not depend on product modules.
+# Townlight architecture at a glance
+
+Townlight is a multi-repository product family with a one-way dependency rule: product modules depend on Townlight Core; Townlight Core does not depend on product modules.
 
 ```mermaid
 flowchart TB
@@ -18,11 +20,11 @@ flowchart TB
 ## Runtime boundaries
 
 - **Desktop shell:** Tauri with Windows WebView2 is the current clerk-facing operator surface.
-- **Shared platform:** CivicCore supplies common identity, audit, retention, ingestion, search, connector, task-queue, and local-AI contracts.
+- **Shared platform:** Townlight Core supplies common identity, audit, retention, ingestion, search, connector, task-queue, and local-AI contracts.
 - **Data:** PostgreSQL 17 and pgvector run from portable binaries in the Windows Local package.
 - **Services:** module services run through bundled CPython.
 - **AI:** a bundled Ollama runtime serves a pinned local model. The model is downloaded and checksum-verified during first-run setup.
-- **Modules:** each municipal workflow is maintained in its own repository and pins a compatible CivicCore release.
+- **Modules:** each municipal workflow is maintained in its own repository and pins a compatible Townlight Core release.
 
 ## Sovereignty boundary
 
@@ -32,6 +34,6 @@ Air-gapped operation is an architectural target whose broader verification remai
 
 ## Decision boundary
 
-CivicSuite assists municipal staff. It is not designed to auto-release records, auto-deny requests, auto-redact, auto-enforce, auto-codify, or make legal and compliance determinations. AI drafts; humans decide.
+Townlight assists municipal staff. It is not designed to auto-release records, auto-deny requests, auto-redact, auto-enforce, auto-codify, or make legal and compliance determinations. AI drafts; humans decide.
 
-For implementation detail, data-flow rules, and current qualifications, use the authoritative [suite architecture](https://github.com/CivicSuite/civicsuite/blob/main/ARCHITECTURE.md).
+For implementation detail, data-flow rules, and current qualifications, use the authoritative [suite architecture](https://github.com/townlight/townlight/blob/main/ARCHITECTURE.md).
