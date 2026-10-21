@@ -1,10 +1,12 @@
-# CivicSuite organization profile and public front door
+<a id="civicsuite-organization-profile-and-public-front-door"></a>
 
-This repository owns CivicSuite's GitHub organization profile, concise public documentation, and the source for an organization-level landing page. Detailed product documentation and the current Windows Local release remain authoritative in the [`CivicSuite/civicsuite`](https://github.com/CivicSuite/civicsuite) umbrella repository.
+# Townlight organization profile and public front door
+
+This repository owns Townlight's GitHub organization profile, concise public documentation, and the source for an organization-level landing page. Detailed product documentation and the current Windows Local release remain authoritative in the [`townlight/townlight`](https://github.com/townlight/townlight) umbrella repository.
 
 ## Public surfaces
 
-- [`profile/README.md`](profile/README.md) — the profile displayed on the CivicSuite organization page.
+- [`profile/README.md`](profile/README.md) — the profile displayed on the Townlight organization page.
 - [`site/`](site/) — dependency-free static landing page source.
 - [`docs/getting-started.md`](docs/getting-started.md) — visitor and evaluator routing.
 - [`docs/architecture.md`](docs/architecture.md) — concise suite architecture overview.
