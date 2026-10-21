@@ -36,7 +36,7 @@
 - **City-held data.** Documents, audit history, the database, and the AI model stay on the municipality's hardware.
 - **Clerk-first workflows.** The active suite starts with records, meetings, code, notices, and accessible public information.
 - **Human authority.** AI can draft and assist; humans decide. CivicSuite does not auto-release, auto-deny, auto-redact, or make legal determinations.
-- **Open foundations.** Code is Apache 2.0; documentation is CC BY 4.0. Cities retain the right to inspect, modify, operate, and fork the software.
+- **Open foundations.** Code is AGPL-3.0; documentation is CC BY 4.0. Cities retain the right to inspect, modify, operate, and fork the software.
 
 ### Start in the right place
 
