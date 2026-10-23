@@ -1,29 +1,12 @@
 # Landing-page deployment
 
-The organization hub is a dependency-free static site in `site/`. The workflow at `.github/workflows/pages.yml` uploads that directory directly to GitHub Pages.
+The Townlight organization front door is served at <https://townlight.github.io/> from the [`townlight/townlight.github.io`](https://github.com/townlight/townlight.github.io) repository, a single dependency-free `index.html` on `main`.
 
-## First deployment
+This `.github` repository no longer publishes a site. Its earlier `site/` directory, contract tests and `Deploy organization landing page` workflow were removed on October 23, 2026, and GitHub Pages was disabled here, so the organization has one front door.
 
-1. In the `.github` repository, open **Settings → Pages**.
-2. Under **Build and deployment**, choose **GitHub Actions** as the source.
-3. Merge or push the site changes to `main`.
-4. Watch the **Deploy organization landing page** workflow.
-5. Add the resulting URL to the repository homepage only after the successful deployment confirms it.
+## Change the front door
 
-GitHub Pages determines the final project URL. Do not publish or document a guessed URL before that first successful deployment.
-
-## Local preview
-
-```powershell
-python -m http.server 4173 --directory site
-```
-
-The site uses only relative asset URLs and in-page anchors, so it remains portable under a repository subpath.
-
-## Verification
-
-```powershell
-python -m unittest discover -s tests -v
-```
-
-The contract test checks required artifacts, semantic structure, internal anchors, local assets, status guardrails, responsive CSS, focus treatment, and reduced-motion support.
+1. Edit `index.html` in `townlight/townlight.github.io`.
+2. Confirm every product claim against the umbrella repository's `STATUS.md`.
+3. Preview with `python -m http.server 4173` from that repository.
+4. Push to `main`. GitHub Pages redeploys the root automatically.

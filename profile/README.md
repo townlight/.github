@@ -9,7 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://townlight.github.io/townlight/"><strong>Explore Townlight</strong></a>
+  <a href="https://townlight.github.io/"><strong>Explore Townlight</strong></a>
+  ·
+  <a href="https://townlight.github.io/townlight/">Product site</a>
   ·
   <a href="https://github.com/townlight/townlight/releases/tag/townlight-records-meetings-code-zoning-v1.4.0-beta.1">Download the public beta</a>
   ·
