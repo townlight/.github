@@ -1,31 +1,7 @@
-<a id="civicsuite-project-status"></a>
+# Townlight documentation and product status
 
-# Townlight project status
+Current public front door: https://townlight.github.io/. It links all eight product pages, their current manuals and the [overall operating manual](https://github.com/townlight/townlight/blob/main/USER-MANUAL.md).
 
-**Profile documentation updated:** October 21, 2026. The authoritative status is maintained in the [Townlight umbrella repository](https://github.com/townlight/townlight/blob/main/STATUS.md).
+Accepted connected releases extend through signed Inspections 1.7.0-beta.1, Permitting 1.6.0-beta.1 and fresh-install Planning 1.5.1. The existing default 1.4 download remains unchanged. Supporting Notice and Access are not counted as extra members of the eight-product set.
 
-## Current public statement
-
-Townlight Records + Meetings + Code + Zoning **1.4.0-beta.1** is a bounded Windows public beta published October 21, 2026. The opt-in seven-module zoning-beta build has passed the project's clean-machine acceptance work and is available for real hands-on evaluation.
-
-It is **not production-ready, city-ready, procurement-ready, or a full-suite release**. Townlight does not currently document a live municipal deployment.
-
-## Maturity groups
-
-| Group | Meaning |
-|---|---|
-| Shared platform | Townlight Core, required by every module and always installed. |
-| Released city-core | Records, meetings, municipal code, public notices, and accessibility workflows included in the Windows Local beta. |
-| Queued Tier 2 | Early foundations with corrected version labels; deeper product work is queued. |
-| Early scaffold / foundation | Schema, package, sample workflow, or test foundations; not city-ready products. |
-| Planned | Specification exists, but no runtime repository exists yet. |
-
-Repository count, release tags, and version numbers do not by themselves establish product maturity. Use the public status matrix and release evidence.
-
-## Sources of truth
-
-- [Module-by-module status](https://github.com/townlight/townlight/blob/main/STATUS.md)
-- [Release recovery and evidence gates](https://github.com/townlight/townlight/blob/main/docs/release-recovery-status.md)
-- [Compatibility matrix](https://github.com/townlight/townlight/tree/main/docs/compatibility)
-- [Current release](https://github.com/townlight/townlight/releases/tag/townlight-records-meetings-code-zoning-v1.4.0-beta.1)
-- [Provenance and source pins](https://github.com/townlight/townlight/blob/main/PROVENANCE.md)
+The [assessment](https://github.com/townlight/townlight/blob/main/docs/assessment/feature-and-integration-review.md) identifies source-proven gaps and explicit deferrals. Do not equate a passed bounded workflow with completion of every broader specification, or incomplete evidence with absent source implementation. Release truth comes from exact acceptance and provenance, not a package name or old README maturity label.
