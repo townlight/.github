@@ -1,7 +1,16 @@
-# Townlight documentation and product status
+# Townlight Beta 1 status
 
-Current public front door: https://townlight.github.io/. It links all eight product pages, their current manuals and the [overall operating manual](https://github.com/townlight/townlight/blob/main/USER-MANUAL.md).
+The [public site](https://townlight.github.io/) documents nine products: Core,
+Records, Meetings, Code, Zoning, Planning, Permitting, Inspections and Station.
+Notice and Access remain supporting modules rather than additional products.
 
-Accepted connected releases extend through signed Inspections 1.7.0-beta.1, Permitting 1.6.0-beta.1 and fresh-install Planning 1.5.1. The existing default 1.4 download remains unchanged. Supporting Notice and Access are not counted as extra members of the eight-product set.
+The [release](https://github.com/townlight/townlight/releases/tag/townlight-beta-1) supplies the exact signed Windows fresh-install candidate,
+owned-source companion, ten-manual documentation companion, checksums and curated
+acceptance. Normal first-run and selected synthetic staff workflows were exercised
+in Sandbox. This is not certification of every role, screen, vendor, jurisdiction,
+historical upgrade or physical capture device. Read ACCEPTANCE.md for the exact
+coverage and the [manual](https://townlight.github.io/manuals/suite.html) for site setup.
 
-The [assessment](https://github.com/townlight/townlight/blob/main/docs/assessment/feature-and-integration-review.md) identifies source-proven gaps and explicit deferrals. Do not equate a passed bounded workflow with completion of every broader specification, or incomplete evidence with absent source implementation. Release truth comes from exact acceptance and provenance, not a package name or old README maturity label.
+Station integrates pinned CivicCast media source behind its separate service
+boundary. Standalone CivicCast remains separate. Current owned code/documentation
+are AGPL-3.0-only, with historical grants and vendor notices retained.

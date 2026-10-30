@@ -1,12 +1,12 @@
-# Landing-page deployment
+# Documentation deployment
 
-The Townlight organization front door is served at <https://townlight.github.io/> from the [`townlight/townlight.github.io`](https://github.com/townlight/townlight.github.io) repository, a single dependency-free `index.html` on `main`.
+The organization site at https://townlight.github.io/ is served from
+`townlight/townlight.github.io`, main branch, root. It contains all nine product
+landing pages and the ten-manual reference kit. The suite documentation entry at
+https://townlight.github.io/townlight/ is served from `townlight/townlight`, main,
+`/docs`, and links the same coordinated edition.
 
-This `.github` repository no longer publishes a site. Its earlier `site/` directory, contract tests and `Deploy organization landing page` workflow were removed on October 23, 2026, and GitHub Pages was disabled here, so the organization has one front door.
-
-## Change the front door
-
-1. Edit `index.html` in `townlight/townlight.github.io`.
-2. Confirm every product claim against the umbrella repository's `STATUS.md`.
-3. Preview with `python -m http.server 4173` from that repository.
-4. Push to `main`. GitHub Pages redeploys the root automatically.
+This `.github` repository supplies the GitHub organization profile and does not
+deploy a Pages site. Preview changed static files headlessly, verify links and
+keyboard/mobile behavior, then use the repository's PR/check/merge process.
+Only merge download-link updates once the exact linked release is available.

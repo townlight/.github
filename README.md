@@ -1,26 +1,34 @@
-<a id="civicsuite-organization-profile-and-public-front-door"></a>
+# Townlight — Townlight Beta 1
 
-# Townlight organization profile and public front door
+Nine connected municipal products: Core, Records, Meetings, Code, Zoning,
+Planning, Permitting, Inspections and Station.
 
-This repository owns Townlight's GitHub organization profile and concise public documentation. The organization front door at <https://townlight.github.io/> lives in the [`townlight/townlight.github.io`](https://github.com/townlight/townlight.github.io) repository. Detailed product documentation and the current Windows Local release remain authoritative in the [`townlight/townlight`](https://github.com/townlight/townlight) umbrella repository.
+[Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
+[Signed Windows installer and release information](https://github.com/townlight/townlight/releases/tag/townlight-beta-1) ·
+[Versions, provenance and limits](https://townlight.github.io/versions.html)
 
-## Public surfaces
+The beta is a signed Windows fresh-install candidate verified using synthetic
+data in Windows Sandbox. City-specific policies, staff and equipment still
+require commissioning. Station uses a pinned CivicCast media implementation;
+standalone CivicCast remains a separate product. Current owned code and manuals
+are AGPL-3.0-only, with retained historical grants and vendor notices.
 
-- [`profile/README.md`](profile/README.md) — the profile displayed on the Townlight organization page.
-- [`docs/getting-started.md`](docs/getting-started.md) — visitor and evaluator routing.
-- [`docs/architecture.md`](docs/architecture.md) — concise suite architecture overview.
-- [`docs/project-status.md`](docs/project-status.md) — public maturity language and source-of-truth links.
+| Product | Manual | Source |
+|---|---|---|
+| Core | [Manual](https://townlight.github.io/manuals/core.html) | [Repository](https://github.com/townlight/core) |
+| Records | [Manual](https://townlight.github.io/manuals/records.html) | [Repository](https://github.com/townlight/sunshine) |
+| Meetings | [Manual](https://townlight.github.io/manuals/meetings.html) | [Repository](https://github.com/townlight/meetings) |
+| Code | [Manual](https://townlight.github.io/manuals/code.html) | [Repository](https://github.com/townlight/ordinances) |
+| Zoning | [Manual](https://townlight.github.io/manuals/zoning.html) | [Repository](https://github.com/townlight/zone) |
+| Planning | [Manual](https://townlight.github.io/manuals/planning.html) | [Repository](https://github.com/townlight/plan) |
+| Permitting | [Manual](https://townlight.github.io/manuals/permitting.html) | [Repository](https://github.com/townlight/permit) |
+| Inspections | [Manual](https://townlight.github.io/manuals/inspections.html) | [Repository](https://github.com/townlight/inspect) |
+| Station | [Manual](https://townlight.github.io/manuals/station.html) | [Repository](https://github.com/townlight/station) |
 
-The organization front door is <https://townlight.github.io/>. The detailed product site is <https://townlight.github.io/townlight/>. Neither replaces the umbrella repository's product documentation.
+## Maintaining this repository
 
-## Deployment
-
-Nothing in this repository is published through GitHub Pages. The former `site/` directory and its Pages workflow were retired on October 23, 2026 in favor of the root site; see [`docs/deployment.md`](docs/deployment.md).
-
-## Content authority
-
-Public status, versions, release evidence, checksums, requirements, and module maturity must be sourced from the umbrella repository. Do not duplicate fast-changing details here unless they are accompanied by a verification date and an authoritative link.
-
-## License
-
-Documentation and site content are licensed under [CC BY 4.0](LICENSE-DOCS). Code: AGPL-3.0-only, with the TownLight Public Institution Exception for qualifying deployments. See [LICENSE](LICENSE) and [LICENSE-EXCEPTION.md](LICENSE-EXCEPTION.md).
+`profile/README.md` supplies the GitHub organization profile. The public site,
+nine landing pages, ten manuals, architecture/API references, PDF/Word files
+and full license/terms are maintained in `townlight/townlight.github.io`.
+Current owned code and documentation are AGPL-3.0-only; the historical exception
+is retained in `docs/history` and is not granted to this current edition.
