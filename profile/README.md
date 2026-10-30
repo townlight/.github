@@ -1,10 +1,26 @@
-# Townlight
+# Townlight — Townlight Beta 1
 
-Eight connected local-first municipal products: **Core, Records, Meetings, Code, Zoning, Planning, Permitting and Inspections**. Human review and source provenance connect the work.
+Nine connected municipal products: Core, Records, Meetings, Code, Zoning,
+Planning, Permitting, Inspections and Station.
 
-- [Organization and individual product pages](https://townlight.github.io/)
-- [Overall user manual](https://github.com/townlight/townlight/blob/main/USER-MANUAL.md) and each product’s full manual
-- [Specification/integration findings](https://github.com/townlight/townlight/blob/main/docs/assessment/feature-and-integration-review.md) — accepted workflows, confirmed gaps, explicit deferrals and unverified capabilities
-- [Existing default Windows download](https://github.com/townlight/townlight/releases/tag/townlight-records-meetings-code-zoning-v1.4.0-beta.1) — unchanged; newer signed Planning/Permitting/Inspections compositions are explicit choices
+[Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
+[Signed Windows installer and release information](https://github.com/townlight/townlight/releases/tag/townlight-beta-1) ·
+[Versions, provenance and limits](https://townlight.github.io/versions.html)
 
-Code: AGPL-3.0 with the applicable public institution exception. Documentation: CC BY 4.0. Volunteer-maintained, bounded releases; read the exact acceptance before deployment.
+The beta is a signed Windows fresh-install candidate verified using synthetic
+data in Windows Sandbox. City-specific policies, staff and equipment still
+require commissioning. Station uses a pinned CivicCast media implementation;
+standalone CivicCast remains a separate product. Current owned code and manuals
+are AGPL-3.0-only, with retained historical grants and vendor notices.
+
+| Product | Manual | Source |
+|---|---|---|
+| Core | [Manual](https://townlight.github.io/manuals/core.html) | [Repository](https://github.com/townlight/core) |
+| Records | [Manual](https://townlight.github.io/manuals/records.html) | [Repository](https://github.com/townlight/sunshine) |
+| Meetings | [Manual](https://townlight.github.io/manuals/meetings.html) | [Repository](https://github.com/townlight/meetings) |
+| Code | [Manual](https://townlight.github.io/manuals/code.html) | [Repository](https://github.com/townlight/ordinances) |
+| Zoning | [Manual](https://townlight.github.io/manuals/zoning.html) | [Repository](https://github.com/townlight/zone) |
+| Planning | [Manual](https://townlight.github.io/manuals/planning.html) | [Repository](https://github.com/townlight/plan) |
+| Permitting | [Manual](https://townlight.github.io/manuals/permitting.html) | [Repository](https://github.com/townlight/permit) |
+| Inspections | [Manual](https://townlight.github.io/manuals/inspections.html) | [Repository](https://github.com/townlight/inspect) |
+| Station | [Manual](https://townlight.github.io/manuals/station.html) | [Repository](https://github.com/townlight/station) |
