@@ -4,7 +4,7 @@ The [public site](https://townlight.github.io/) documents nine products: Core,
 Records, Meetings, Code, Zoning, Planning, Permitting, Inspections and Station.
 Notice and Access remain supporting modules rather than additional products.
 
-The [release](https://github.com/townlight/townlight/releases/tag/townlight-beta-1) supplies the exact signed Windows fresh-install candidate,
+The [release](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-station-delivery) supplies the exact signed Windows fresh-install candidate,
 owned-source companion, ten-manual documentation companion, checksums and curated
 acceptance. Normal first-run and selected synthetic staff workflows were exercised
 in Sandbox. This is not certification of every role, screen, vendor, jurisdiction,
@@ -14,3 +14,6 @@ coverage and the [manual](https://townlight.github.io/manuals/suite.html) for si
 Station integrates pinned CivicCast media source behind its separate service
 boundary. Standalone CivicCast remains separate. Current owned code/documentation
 are AGPL-3.0-only, with historical grants and vendor notices retained.
+
+
+The Station delivery update adds an encrypted live feed to separate CivicCast and explicit completed-recording YouTube uploads. Staff review and the private Records original are retained. Existing component versions and AGPL-3.0-only ownership terms are unchanged.
