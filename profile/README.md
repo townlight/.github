@@ -30,3 +30,8 @@ are AGPL-3.0-only, with retained historical grants and vendor notices.
 
 
 The Station delivery update adds an encrypted live feed to separate CivicCast and explicit completed-recording YouTube uploads. Staff review and the private Records original are retained. That historical delivery evidence does not verify this changed candidate. Current prepared versions are listed on the versions page; AGPL-3.0-only ownership terms remain in effect.
+
+
+## Separately deployed resident portal beta
+
+[Portal release and downloads](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-resident-portal) · [Portal guide](https://townlight.github.io/manuals/portal.html). Includes the approved city-facing website and the Meetings → Station → Records publication workflow. Deploy the portal and matching native bridge separately; the signed Windows installer is unchanged and does not install them. Acceptance uses synthetic data; CivicCast remains separate.
