@@ -4,11 +4,12 @@ Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
 Planning, Permitting, Inspections and Station.
 
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
-[Historical Station delivery release and its original evidence](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-station-delivery) ·
+[Signed Windows x64 beta 1.7.0.1](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-windows-1.7.0.1) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
 
-The naming, Access and Notice candidate is prepared source. Its new signed
-Windows installer and exact-candidate Windows Sandbox acceptance remain pending.
+The signed Windows x64 beta 1.7.0.1 passed fresh Windows Sandbox acceptance
+with synthetic data. The release includes the MSI, matching source, checksums
+and an [acceptance summary](https://github.com/townlight/townlight/releases/download/townlight-beta-1-windows-1.7.0.1/ACCEPTANCE-Windows-1.7.0.1.md).
 Earlier releases retain their original identities and acceptance evidence. City-specific policies, staff and equipment still
 require commissioning. Station uses a pinned CivicCast media implementation;
 standalone CivicCast remains a separate product. Current owned code and manuals
@@ -34,4 +35,4 @@ The Station delivery update adds an encrypted live feed to separate CivicCast an
 
 ## Separately deployed resident portal beta
 
-[Portal release and downloads](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-resident-portal) · [Portal guide](https://townlight.github.io/manuals/portal.html). Includes the approved city-facing website and the Meetings → Station → Records publication workflow. Deploy the portal and matching native bridge separately; the signed Windows installer is unchanged and does not install them. Acceptance uses synthetic data; CivicCast remains separate.
+[Portal release and downloads](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-resident-portal) · [Portal guide](https://townlight.github.io/manuals/portal.html). Includes the approved city-facing website and the Meetings → Station → Records publication workflow. Deploy the portal and matching native bridge separately; the portal and bridge use their own release and deployment steps. Acceptance uses synthetic data; CivicCast remains separate.
