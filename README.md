@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://townlight.github.io/brand/svg/townlight-hall-lockup-tagline-reversed.svg">
+    <img alt="Townlight — Municipal software cities can actually own." src="https://townlight.github.io/brand/svg/townlight-hall-lockup-tagline.svg" width="600">
+  </picture>
+</p>
+
 # Townlight — Townlight Beta 1
 
 Nine connected municipal products: Core, Records, Meetings, Code, Zoning,
@@ -35,3 +42,6 @@ is retained in `docs/history` and is not granted to this current edition.
 
 
 The Station delivery update adds an encrypted live feed to separate CivicCast and explicit completed-recording YouTube uploads. Staff review and the private Records original are retained. Existing component versions and AGPL-3.0-only ownership terms are unchanged.
+
+
+[Open Hall brand package and usage guide](https://townlight.github.io/brand/).

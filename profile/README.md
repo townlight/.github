@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://townlight.github.io/brand/svg/townlight-hall-lockup-tagline-reversed.svg">
+    <img alt="Townlight — Municipal software cities can actually own." src="https://townlight.github.io/brand/svg/townlight-hall-lockup-tagline.svg" width="600">
+  </picture>
+</p>
+
 # Townlight — Townlight Beta 1
 
 Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
@@ -36,3 +43,6 @@ The Station delivery update adds an encrypted live feed to separate CivicCast an
 ## Separately deployed resident portal beta
 
 [Portal release and downloads](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-resident-portal) · [Portal guide](https://townlight.github.io/manuals/portal.html). Includes the approved city-facing website and the Meetings → Station → Records publication workflow. Deploy the portal and matching native bridge separately; the portal and bridge use their own release and deployment steps. Acceptance uses synthetic data; CivicCast remains separate.
+
+
+[Open Hall brand package and usage guide](https://townlight.github.io/brand/).
