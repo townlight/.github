@@ -5,17 +5,23 @@
   </picture>
 </p>
 
+[Download Windows beta 1.7.0.1](https://github.com/townlight/townlight/releases/download/townlight-beta-1-windows-1.7.0.1/Townlight-Candidate-Windows-x64.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
+
+Fresh installation/profile only; this MSI does not upgrade an existing legacy profile.
+
 # Townlight — Townlight Beta 1
 
-Nine connected municipal products: Core, Records, Meetings, Code, Zoning,
+Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
 Planning, Permitting, Inspections and Station.
 
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
-[Signed Windows installer and release information](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-station-delivery) ·
+[Signed Windows x64 beta 1.7.0.1](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-windows-1.7.0.1) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
 
-The beta is a signed Windows fresh-install candidate verified using synthetic
-data in Windows Sandbox. City-specific policies, staff and equipment still
+The signed Windows x64 beta 1.7.0.1 passed fresh Windows Sandbox acceptance
+with synthetic data. The release includes the MSI, matching source, checksums
+and an [acceptance summary](https://github.com/townlight/townlight/releases/download/townlight-beta-1-windows-1.7.0.1/ACCEPTANCE-Windows-1.7.0.1.md).
+Earlier releases retain their original identities and acceptance evidence. City-specific policies, staff and equipment still
 require commissioning. Station uses a pinned CivicCast media implementation;
 standalone CivicCast remains a separate product. Current owned code and manuals
 are AGPL-3.0-only, with retained historical grants and vendor notices.
@@ -26,22 +32,21 @@ are AGPL-3.0-only, with retained historical grants and vendor notices.
 | Records | [Manual](https://townlight.github.io/manuals/records.html) | [Repository](https://github.com/townlight/sunshine) |
 | Meetings | [Manual](https://townlight.github.io/manuals/meetings.html) | [Repository](https://github.com/townlight/meetings) |
 | Code | [Manual](https://townlight.github.io/manuals/code.html) | [Repository](https://github.com/townlight/ordinances) |
+| Access | [Manual](https://townlight.github.io/manuals/access.html) | [Repository](https://github.com/townlight/access) |
+| Notice | [Manual](https://townlight.github.io/manuals/notice.html) | [Repository](https://github.com/townlight/notice) |
 | Zoning | [Manual](https://townlight.github.io/manuals/zoning.html) | [Repository](https://github.com/townlight/zone) |
 | Planning | [Manual](https://townlight.github.io/manuals/planning.html) | [Repository](https://github.com/townlight/plan) |
 | Permitting | [Manual](https://townlight.github.io/manuals/permitting.html) | [Repository](https://github.com/townlight/permit) |
 | Inspections | [Manual](https://townlight.github.io/manuals/inspections.html) | [Repository](https://github.com/townlight/inspect) |
 | Station | [Manual](https://townlight.github.io/manuals/station.html) | [Repository](https://github.com/townlight/station) |
 
-## Maintaining this repository
 
-`profile/README.md` supplies the GitHub organization profile. The public site,
-nine landing pages, ten manuals, architecture/API references, PDF/Word files
-and full license/terms are maintained in `townlight/townlight.github.io`.
-Current owned code and documentation are AGPL-3.0-only; the historical exception
-is retained in `docs/history` and is not granted to this current edition.
+The current Windows acceptance covers the paired-loopback Meetings → Station → Records handoff using a synthetic recorded file. Historical Station delivery evidence does not establish live broadcast, external upload or city deployment acceptance for this MSI.
 
 
-The Station delivery update adds an encrypted live feed to separate CivicCast and explicit completed-recording YouTube uploads. Staff review and the private Records original are retained. Existing component versions and AGPL-3.0-only ownership terms are unchanged.
+## Separately deployed resident portal beta
+
+[Portal release and downloads](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-resident-portal) · [Portal guide](https://townlight.github.io/manuals/portal.html). Includes the approved city-facing website and the Meetings → Station → Records publication workflow. Deploy the portal and matching native bridge separately; the portal and bridge use their own release and deployment steps. Acceptance uses synthetic data; CivicCast remains separate.
 
 
 [Open Hall brand package and usage guide](https://townlight.github.io/brand/).

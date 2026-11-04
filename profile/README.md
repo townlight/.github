@@ -5,6 +5,10 @@
   </picture>
 </p>
 
+[Download Windows beta 1.7.0.1](https://github.com/townlight/townlight/releases/download/townlight-beta-1-windows-1.7.0.1/Townlight-Candidate-Windows-x64.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
+
+Fresh installation/profile only; this MSI does not upgrade an existing legacy profile.
+
 # Townlight — Townlight Beta 1
 
 Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
@@ -37,7 +41,7 @@ are AGPL-3.0-only, with retained historical grants and vendor notices.
 | Station | [Manual](https://townlight.github.io/manuals/station.html) | [Repository](https://github.com/townlight/station) |
 
 
-The Station delivery update adds an encrypted live feed to separate CivicCast and explicit completed-recording YouTube uploads. Staff review and the private Records original are retained. That historical delivery evidence does not verify this changed candidate. Current prepared versions are listed on the versions page; AGPL-3.0-only ownership terms remain in effect.
+The current Windows acceptance covers the paired-loopback Meetings → Station → Records handoff using a synthetic recorded file. Historical Station delivery evidence does not establish live broadcast, external upload or city deployment acceptance for this MSI.
 
 
 ## Separately deployed resident portal beta
