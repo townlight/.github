@@ -5,25 +5,31 @@
   </picture>
 </p>
 
-[Download Windows beta 1.8.0.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.0.1/Townlight-Windows-x64-1.8.0.1.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
+[Download Windows beta 1.8.1.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.1.1/Townlight-Windows-x64-1.8.1.1.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
 
-New installations use a fresh profile. Upgrade from the previous public Windows 1.7.2.1 retains saved settings and data; older upgrade paths are unverified.
+Windows 1.8.1.1 has fresh-install acceptance. An in-place upgrade to 1.8.1.1 was not exercised. The previous Windows 1.8.0.1 release tested upgrade from 1.7.2.1; that result applies to 1.8.0.1. Before an existing-city evaluation, back up city data and settings, close Townlight, keep the existing %LOCALAPPDATA%\CivicSuite profile, and use the same Windows account. Keep the prior installer and a restore path. Station continues to use its separately configured service.
 
 # Townlight — Townlight Beta 1
+
+## Shared meeting imports · Windows 1.8.1.1
+
+Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supported source/format pairs. Installed Windows Sandbox checks exercised preview, save and durable readback using public captures and fixtures, plus the documented Townlight handoffs. These checks do not establish automatic discovery on every live portal or a complete retest of every module.
+
+[All 31 sources, formats and handoffs](https://townlight.github.io/manuals/meeting-imports.html) · [Installed acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.1.1/ACCEPTANCE-Windows-1.8.1.1.md).
+
+Windows 1.8.1.1 has fresh-install acceptance. An in-place upgrade to 1.8.1.1 was not exercised. The previous Windows 1.8.0.1 release tested upgrade from 1.7.2.1; that result applies to 1.8.0.1. Before an existing-city evaluation, back up city data and settings, close Townlight, keep the existing %LOCALAPPDATA%\CivicSuite profile, and use the same Windows account. Keep the prior installer and a restore path. Station continues to use its separately configured service.
+
+The accepted MSI contains Townlight Runtime 0.3.1 and Meetings 1.0.6 distributions. Its health version strings still report Runtime 0.3.0 and Meetings 1.0.5. Default-branch source corrects those display strings; the signed MSI and its exact build source remain unchanged.
+
 
 Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
 Planning, Permitting, Inspections, Station, Boards & Commissions, Contracts, and Procurement.
 
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
-[Signed Windows x64 beta 1.8.0.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.8.0.1) ·
+[Signed Windows x64 beta 1.8.1.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.8.1.1) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
 
-Windows 1.8.0.1 adds Boards & Commissions, Contracts, and Procurement to the full Windows profile. The signed Windows Sandbox checks cover a fresh installation, the three staff workflows, role boundaries, record persistence, and upgrade from 1.7.2.1 with retained city data and settings. Station continues to use its separately configured local service. The release includes the MSI, matching source, checksums
-and an [acceptance summary](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.0.1/ACCEPTANCE-Windows-1.8.0.1.md).
-Earlier releases retain their original identities and acceptance evidence. City-specific policies, staff and equipment still
-require commissioning. Station uses a pinned CivicCast media implementation;
-standalone CivicCast remains a separate product. Current owned code and manuals
-are AGPL-3.0-only, with retained historical grants and vendor notices.
+Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supported source/format pairs. Installed Windows Sandbox checks exercised preview, save and durable readback using public captures and fixtures, plus the documented Townlight handoffs. These checks do not establish automatic discovery on every live portal or a complete retest of every module.
 
 | Product | Manual | Source |
 |---|---|---|
@@ -43,7 +49,7 @@ are AGPL-3.0-only, with retained historical grants and vendor notices.
 | Station | [Manual](https://townlight.github.io/manuals/station.html) | [Repository](https://github.com/townlight/station) |
 
 
-The earlier Windows acceptance covers the paired-loopback Meetings → Station → Records handoff using a synthetic recorded file. Historical Station delivery evidence does not establish live broadcast, external upload or city deployment acceptance for this MSI.
+Windows 1.8.1.1 acceptance includes the configured Station worker processing a public Wistia MP4 and attaching its output to Records. Historical Station delivery evidence does not establish live broadcast, external upload or city deployment acceptance for this MSI.
 
 
 ## Separately deployed resident portal beta
