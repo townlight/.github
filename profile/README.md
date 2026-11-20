@@ -5,9 +5,9 @@
   </picture>
 </p>
 
-[Download Windows beta 1.8.1.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.1.1/Townlight-Windows-x64-1.8.1.1.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
+[Download Windows beta 1.8.2.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.2.1/Townlight-Windows-x64-1.8.2.1.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
 
-Windows 1.8.1.1 has fresh-install acceptance. An in-place upgrade to 1.8.1.1 was not exercised. The previous Windows 1.8.0.1 release tested upgrade from 1.7.2.1; that result applies to 1.8.0.1. Before an existing-city evaluation, back up city data and settings, close Townlight, keep the existing %LOCALAPPDATA%\CivicSuite profile, and use the same Windows account. Keep the prior installer and a restore path. Station continues to use its separately configured service.
+Windows 1.8.2.1 has signed installed acceptance for fresh setup and an in-place upgrade from Windows 1.8.1.1. Before upgrading, back up city data and settings, close Townlight, run the signed MSI, and reopen it under the same Windows account with the existing `%LOCALAPPDATA%\CivicSuite` profile. Keep the prior installer and a restore path. Other upgrade paths are unverified. Station uses its separately configured service. The acceptance summary distinguishes new maintenance checks from reused workflow evidence.
 
 # Townlight — Townlight Beta 1
 
@@ -17,14 +17,14 @@ Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supp
 
 [All 31 sources, formats and handoffs](https://townlight.github.io/manuals/meeting-imports.html) · [Installed acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.1.1/ACCEPTANCE-Windows-1.8.1.1.md).
 
-The accepted MSI contains Townlight Runtime 0.3.1 and Meetings 1.0.6 distributions. Its health version strings still report Runtime 0.3.0 and Meetings 1.0.5. Default-branch source corrects those display strings; the signed MSI and its exact build source remain unchanged.
+Windows 1.8.2.1 contains Townlight Runtime 0.3.2 and Meetings 1.0.6. Its current component sources and installed evidence are identified in the maintenance acceptance summary.
 
 
 Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
 Planning, Permitting, Inspections, Station, Boards & Commissions, Contracts, and Procurement.
 
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
-[Signed Windows x64 beta 1.8.1.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.8.1.1) ·
+[Signed Windows x64 beta 1.8.2.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.8.2.1) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
 
 | Product | Manual | Source |
@@ -60,3 +60,11 @@ Windows 1.8.1.1 acceptance includes the configured Station worker processing a p
 The following repositories are research or prototypes, are outside the released Windows suite, and are not presented as installable finished products: [311](https://github.com/townlight/311), [budget](https://github.com/townlight/budget), [comms](https://github.com/townlight/comms), [court](https://github.com/townlight/court), [data](https://github.com/townlight/data), [elections](https://github.com/townlight/elections), [grants](https://github.com/townlight/grants), [hr](https://github.com/townlight/hr), [legal](https://github.com/townlight/legal), [library](https://github.com/townlight/library), [parks](https://github.com/townlight/parks), [safety](https://github.com/townlight/safety), [utility](https://github.com/townlight/utility). Their source and history remain available.
 
 [Organization maintenance and source identities](https://github.com/townlight/townlight/blob/main/docs/maintenance/ORGANIZATION-CLEANUP-2026-11.md).
+
+## Windows 1.8.2.1 maintenance release
+
+Windows 1.8.2.1 packages the staff authorization, explicit database configuration and component metadata corrections. Its exact signed installed checks cover setup, the 1.8.1.1 upgrade, saved staff records, procurement/Contracts handoffs, backup/restore and uninstall retention. Unchanged module and 31-source/34-format import evidence remains attributed to the earlier build that produced it; this is not a new exhaustive test of every module or live provider.
+
+Windows 1.8.2.1 has signed installed acceptance for fresh setup and an in-place upgrade from Windows 1.8.1.1. Before upgrading, back up city data and settings, close Townlight, run the signed MSI, and reopen it under the same Windows account with the existing `%LOCALAPPDATA%\CivicSuite` profile. Keep the prior installer and a restore path. Other upgrade paths are unverified. Station uses its separately configured service. The acceptance summary distinguishes new maintenance checks from reused workflow evidence.
+
+[Acceptance and limits](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.2.1/ACCEPTANCE-Windows-1.8.2.1.md).
