@@ -17,8 +17,6 @@ Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supp
 
 [All 31 sources, formats and handoffs](https://townlight.github.io/manuals/meeting-imports.html) · [Installed acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.1.1/ACCEPTANCE-Windows-1.8.1.1.md).
 
-Windows 1.8.1.1 has fresh-install acceptance. An in-place upgrade to 1.8.1.1 was not exercised. The previous Windows 1.8.0.1 release tested upgrade from 1.7.2.1; that result applies to 1.8.0.1. Before an existing-city evaluation, back up city data and settings, close Townlight, keep the existing %LOCALAPPDATA%\CivicSuite profile, and use the same Windows account. Keep the prior installer and a restore path. Station continues to use its separately configured service.
-
 The accepted MSI contains Townlight Runtime 0.3.1 and Meetings 1.0.6 distributions. Its health version strings still report Runtime 0.3.0 and Meetings 1.0.5. Default-branch source corrects those display strings; the signed MSI and its exact build source remain unchanged.
 
 
@@ -28,8 +26,6 @@ Planning, Permitting, Inspections, Station, Boards & Commissions, Contracts, and
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
 [Signed Windows x64 beta 1.8.1.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.8.1.1) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
-
-Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supported source/format pairs. Installed Windows Sandbox checks exercised preview, save and durable readback using public captures and fixtures, plus the documented Townlight handoffs. These checks do not establish automatic discovery on every live portal or a complete retest of every module.
 
 | Product | Manual | Source |
 |---|---|---|
@@ -58,3 +54,9 @@ Windows 1.8.1.1 acceptance includes the configured Station worker processing a p
 
 
 [Open Hall brand package and usage guide](https://townlight.github.io/brand/).
+
+## Parked prototypes
+
+The following repositories are research or prototypes, are outside the released Windows suite, and are not presented as installable finished products: [311](https://github.com/townlight/311), [budget](https://github.com/townlight/budget), [comms](https://github.com/townlight/comms), [court](https://github.com/townlight/court), [data](https://github.com/townlight/data), [elections](https://github.com/townlight/elections), [grants](https://github.com/townlight/grants), [hr](https://github.com/townlight/hr), [legal](https://github.com/townlight/legal), [library](https://github.com/townlight/library), [parks](https://github.com/townlight/parks), [safety](https://github.com/townlight/safety), [utility](https://github.com/townlight/utility). Their source and history remain available.
+
+[Organization maintenance and source identities](https://github.com/townlight/townlight/blob/main/docs/maintenance/ORGANIZATION-CLEANUP-2026-11.md).
