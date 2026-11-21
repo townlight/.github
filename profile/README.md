@@ -7,11 +7,11 @@
 
 [Download Windows beta 1.9.0.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.0.1/Townlight-Windows-x64-1.9.0.1.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
 
-Windows 1.9.0.1 has signed fresh-install acceptance, including Station recording, Records handoff and recovery. Set up Station during Townlight first run. Read the acceptance summary before upgrading.
+# Townlight
 
-# Townlight — Townlight Beta 1
+Townlight is local-first municipal software for clerks and city staff. Start with [Records](https://townlight.github.io/manuals/records.html#daily-workflow) or [Meetings](https://townlight.github.io/manuals/meetings.html#daily-workflow). Windows 1.9.0.1 includes Station setup during first run. [Current installed acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.0.1/ACCEPTANCE-Windows-1.9.0.1.md).
 
-## Shared meeting imports · Windows 1.8.1.1
+## Earlier evidence · Shared meeting imports · Windows 1.8.1.1
 
 Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supported source/format pairs. Installed Windows Sandbox checks exercised preview, save and durable readback using public captures and fixtures, plus the documented Townlight handoffs. These checks do not establish automatic discovery on every live portal or a complete retest of every module.
 
@@ -60,11 +60,3 @@ Windows 1.8.1.1 acceptance includes the configured Station worker processing a p
 The following repositories are research or prototypes, are outside the released Windows suite, and are not presented as installable finished products: [311](https://github.com/townlight/311), [budget](https://github.com/townlight/budget), [comms](https://github.com/townlight/comms), [court](https://github.com/townlight/court), [data](https://github.com/townlight/data), [elections](https://github.com/townlight/elections), [grants](https://github.com/townlight/grants), [hr](https://github.com/townlight/hr), [legal](https://github.com/townlight/legal), [library](https://github.com/townlight/library), [parks](https://github.com/townlight/parks), [safety](https://github.com/townlight/safety), [utility](https://github.com/townlight/utility). Their source and history remain available.
 
 [Organization maintenance and source identities](https://github.com/townlight/townlight/blob/main/docs/maintenance/ORGANIZATION-CLEANUP-2026-11.md).
-
-## Windows 1.9.0.1 Station recorder release
-
-Windows 1.9.0.1 integrates Station setup, camera and microphone selection, renewable operator sessions and verified large-recording transfers to Records.
-
-Windows 1.9.0.1 has signed fresh-install acceptance, including Station recording, Records handoff and recovery. Set up Station during Townlight first run. Read the acceptance summary before upgrading.
-
-[Acceptance and limits](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.0.1/ACCEPTANCE-Windows-1.9.0.1.md).
