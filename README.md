@@ -5,13 +5,13 @@
   </picture>
 </p>
 
-[Download Windows beta 1.8.1.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.8.1.1/Townlight-Windows-x64-1.8.1.1.msi) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
+[Download signed Windows beta 1.9.2.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/Townlight-Windows-x64-1.9.2.1.msi) · [Release catalog and checksums](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.2.1) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
 
-Windows 1.8.1.1 has fresh-install acceptance. An in-place upgrade to 1.8.1.1 was not exercised. The previous Windows 1.8.0.1 release tested upgrade from 1.7.2.1; that result applies to 1.8.0.1. Before an existing-city evaluation, back up city data and settings, close Townlight, keep the existing %LOCALAPPDATA%\CivicSuite profile, and use the same Windows account. Keep the prior installer and a restore path. Station continues to use its separately configured service.
+Windows 1.9.2.1 is the current signed public beta. It adds revisioned council packets, shared Meetings and Records work between a city host and workstation, and unattended delivery of explicitly approved material to a configured resident portal. Its acceptance used synthetic data on a physical Windows host and a clean Sandbox guest on the same machine. Direct upgrades, a separate physical workstation and a production city network or portal were not tested. See [acceptance and limits](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/ACCEPTANCE-Windows-1.9.2.1.md).
 
 # Townlight — Townlight Beta 1
 
-The current public Windows MSI is **1.9.1.1**. The signed **1.9.2.1 candidate** adds staff and public council packet revisions, shared Meetings and Records work from a second Windows PC, and unattended delivery of approved packets and recordings to a configured resident portal. [Current downloads](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.1.1) · [Candidate walkthrough](https://github.com/townlight/townlight/blob/main/docs/installer/operator-walkthrough.md).
+The current public Windows MSI is **1.9.2.1**. The signed release adds staff and public council packet revisions, shared Meetings and Records work from another Windows environment, and unattended delivery of approved packets and recordings to a configured resident portal. [Release catalog](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.2.1) · [Release guide](https://townlight.github.io/manuals/windows-1.9.2.1-candidate.html) · [Acceptance and limits](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/ACCEPTANCE-Windows-1.9.2.1.md).
 
 ## Shared meeting imports · Windows 1.8.1.1
 
@@ -28,7 +28,7 @@ Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
 Planning, Permitting, Inspections, Station, Boards & Commissions, Contracts, and Procurement.
 
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
-[Signed Windows x64 beta 1.8.1.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.8.1.1) ·
+[Signed Windows x64 beta 1.9.2.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.2.1) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
 
 Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supported source/format pairs. Installed Windows Sandbox checks exercised preview, save and durable readback using public captures and fixtures, plus the documented Townlight handoffs. These checks do not establish automatic discovery on every live portal or a complete retest of every module.
