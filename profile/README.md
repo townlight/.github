@@ -11,6 +11,10 @@
 
 Townlight is local-first municipal software for clerks and city staff. Start with [Records](https://townlight.github.io/manuals/records.html#daily-workflow) or [Meetings](https://townlight.github.io/manuals/meetings.html#daily-workflow). Windows 1.9.1.1 includes Station setup during first run and a verified camera and microphone preview. [Acceptance and limits](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.1.1/ACCEPTANCE-Windows-1.9.1.1.md).
 
+## Tested Windows 1.9.2.1 candidate
+
+The signed candidate adds revisioned staff and public council packets, shared Meetings and Records work from a second Windows PC, and unattended delivery of explicitly approved packets and recordings to a configured resident portal. Station records on the city host. The candidate has not been released. The download above is Windows 1.9.1.1. [Operator walkthrough](https://github.com/townlight/townlight/blob/main/docs/installer/operator-walkthrough.md) · [Installed scope and source](https://github.com/townlight/townlight/pull/339).
+
 ## Earlier evidence · Shared meeting imports · Windows 1.8.1.1
 
 Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supported source/format pairs. Installed Windows Sandbox checks exercised preview, save and durable readback using public captures and fixtures, plus the documented Townlight handoffs. These checks do not establish automatic discovery on every live portal or a complete retest of every module.

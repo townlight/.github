@@ -1,19 +1,7 @@
-# Townlight Beta 1 status
+# Townlight Windows beta status
 
-The [public site](https://townlight.github.io/) documents nine products: Core,
-Records, Meetings, Code, Zoning, Planning, Permitting, Inspections and Station.
-Notice and Access remain supporting modules rather than additional products.
+The current public MSI is **Windows 1.9.1.1**. The [release](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.1.1) includes the signed MSI, corresponding source, checksums and acceptance. Its signed artifact passed a physical C920 camera and microphone preview check. See the [acceptance summary](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.1.1/ACCEPTANCE-Windows-1.9.1.1.md) for results by build.
 
-The [release](https://github.com/townlight/townlight/releases/tag/townlight-beta-1-station-delivery) supplies the exact signed Windows fresh-install candidate,
-owned-source companion, ten-manual documentation companion, checksums and curated
-acceptance. Normal first-run and selected synthetic staff workflows were exercised
-in Sandbox. This is not certification of every role, screen, vendor, jurisdiction,
-historical upgrade or physical capture device. Read ACCEPTANCE.md for the exact
-coverage and the [manual](https://townlight.github.io/manuals/suite.html) for site setup.
+The signed **Windows 1.9.2.1 candidate** passed an installed Meetings → Station → Records workflow across a Windows host and a separate Windows Sandbox client. Checks exercised council packet approvals, a verified Station original handed off to Records, and unattended delivery, correction and withdrawal through a test resident portal. Cold recovery was tested on the original Windows host and account using a fresh profile. [Candidate source and checks](https://github.com/townlight/townlight/pull/339) · [Operator walkthrough](https://github.com/townlight/townlight/blob/main/docs/installer/operator-walkthrough.md).
 
-Station integrates pinned CivicCast media source behind its separate service
-boundary. Standalone CivicCast remains separate. Current owned code/documentation
-are AGPL-3.0-only, with historical grants and vendor notices retained.
-
-
-The Station delivery update adds an encrypted live feed to separate CivicCast and explicit completed-recording YouTube uploads. Staff review and the private Records original are retained. Existing component versions and AGPL-3.0-only ownership terms are unchanged.
+The [suite manual](https://townlight.github.io/manuals/suite.html) covers the coordinated products and supporting modules. Standalone CivicCast retains its own installation and data. Historical releases retain their original evidence.
