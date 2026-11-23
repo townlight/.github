@@ -5,13 +5,15 @@
   </picture>
 </p>
 
-[Download signed Windows beta 1.9.2.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/Townlight-Windows-x64-1.9.2.1.msi) · [Release catalog and source](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.2.1) · [SHA-256 checksums](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/SHA256SUMS-Windows-1.9.2.1.txt) · [Public announcement](https://townlight.github.io/announcement.html)
+[Download signed Windows beta 1.9.3.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.1/Townlight-Windows-x64-1.9.3.1.msi) · [Release catalog and source](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.1) · [SHA-256 checksums](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.1/SHA256SUMS-Windows-1.9.3.1.txt) · [Public announcement](https://townlight.github.io/announcement.html)
+
+Windows 1.9.3.1 is the current signed public beta. [Release tag](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.1) · [Acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.1/ACCEPTANCE-Windows-1.9.3.1.md) · [Data](https://townlight.github.io/products/data/) · [Budget](https://townlight.github.io/products/budget/) · [Grants](https://townlight.github.io/products/grants/).
 
 # Townlight
 
 Townlight is local-first municipal software for clerks and city staff. Start with [Records](https://townlight.github.io/manuals/records.html#daily-workflow) or [Meetings](https://townlight.github.io/manuals/meetings.html#daily-workflow). Windows 1.9.2.1 adds revisioned council packets, shared Meetings and Records work across Windows environments, and approved portal delivery. [Acceptance and limits](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/ACCEPTANCE-Windows-1.9.2.1.md).
 
-## Windows 1.9.2.1 release
+## Windows 1.9.2.1 previous release
 
 The signed release adds revisioned staff and public council packets, shared Meetings and Records work between a city host and workstation, and unattended delivery of explicitly approved packets and recordings to a configured resident portal. Station records on the host. Acceptance used synthetic data on a physical Windows host and a clean Sandbox guest on the same machine; direct upgrades, a separate physical workstation, and a live city network or portal were not tested. [Windows release and source](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.2.1) · [Acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/ACCEPTANCE-Windows-1.9.2.1.md) · [Release guide](https://townlight.github.io/manuals/windows-1.9.2.1-candidate.html).
 
@@ -28,7 +30,7 @@ Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
 Planning, Permitting, Inspections, Station, Boards & Commissions, Contracts, and Procurement.
 
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
-[Signed Windows x64 beta 1.9.2.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.2.1) ·
+[Signed Windows x64 beta 1.9.3.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.1) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
 
 | Product | Manual | Source |
