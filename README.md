@@ -5,9 +5,9 @@
   </picture>
 </p>
 
-[Download signed Windows beta 1.9.3.1](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.1/Townlight-Windows-x64-1.9.3.1.msi) · [Release catalog and checksums](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.1) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
+[Signed Windows beta 1.9.3.2](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.2) · [Download signed MSI](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.2/Townlight-Windows-x64-1.9.3.2.msi) · [Checksums](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.2/SHA256SUMS-Windows-1.9.3.2.txt) · [Acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.2/ACCEPTANCE-Windows-1.9.3.2.md) · [Public announcement](https://townlight.github.io/announcement.html) · [Support and feedback](https://townlight.github.io/support.html)
 
-Windows 1.9.3.1 is the current signed public beta. [Release tag](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.1) · [Acceptance](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.3.1/ACCEPTANCE-Windows-1.9.3.1.md) · [Data](https://townlight.github.io/products/data/) · [Budget](https://townlight.github.io/products/budget/) · [Grants](https://townlight.github.io/products/grants/).
+Windows 1.9.3.2 is the current signed public beta, published 2026-11-24T05:50:39Z. The signed MSI passed direct-upgrade, lifecycle, and fresh exact-artifact acceptance checks. It is 1,866,072,064 bytes with SHA-256 `b00510e0649552b5efd9744513bf9fcaf59cbee5755fd864eb922a5151c96b77` ([signing/build run 45321294952](https://github.com/townlight/townlight/actions/runs/45321294952); [exact-artifact readback 45328280431](https://github.com/townlight/townlight/actions/runs/45328280431)). [1.9.3.2 release notes](https://github.com/townlight/townlight/blob/main/docs/installer/windows-1.9.3.2-candidate.md) · [1.9.3.1 release and acceptance](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.1) · [Data](https://townlight.github.io/products/data/) · [Budget](https://townlight.github.io/products/budget/) · [Grants](https://townlight.github.io/products/grants/).
 
 Windows 1.9.2.1 is the previous signed public beta. It adds revisioned council packets, shared Meetings and Records work between a city host and workstation, and unattended delivery of explicitly approved material to a configured resident portal. Its acceptance used synthetic data on a physical Windows host and a clean Sandbox guest on the same machine. Direct upgrades, a separate physical workstation and a production city network or portal were not tested. See [acceptance and limits](https://github.com/townlight/townlight/releases/download/townlight-windows-v1.9.2.1/ACCEPTANCE-Windows-1.9.2.1.md).
 
@@ -30,7 +30,7 @@ Kept municipal products: Core, Records, Meetings, Code, Access, Notice, Zoning,
 Planning, Permitting, Inspections, Station, Boards & Commissions, Contracts, and Procurement.
 
 [Townlight website](https://townlight.github.io/) · [Suite manual](https://townlight.github.io/manuals/suite.html) ·
-[Signed Windows x64 beta 1.9.3.1](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.1) ·
+[Prepared Windows x64 beta 1.9.3.2 release links](https://github.com/townlight/townlight/releases/tag/townlight-windows-v1.9.3.2) ·
 [Versions, provenance and limits](https://townlight.github.io/versions.html)
 
 Windows 1.8.1.1 adds shared meeting imports for 31 source families, with 34 supported source/format pairs. Installed Windows Sandbox checks exercised preview, save and durable readback using public captures and fixtures, plus the documented Townlight handoffs. These checks do not establish automatic discovery on every live portal or a complete retest of every module.
